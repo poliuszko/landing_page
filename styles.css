@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
   }
 
   .header_container {
@@ -26,7 +27,6 @@
 
   .header_logo{
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
      color: #F9FAF8;
   }
   .link1 {
@@ -39,36 +39,117 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    /* padding: 40px 0; */
   }
 
   .left_content {
     display: flex;
     flex-direction: column;
+    align-items:flex-start;
+    max-width: 50%;
+    
   }
 
   .button {
     border: none;
+    border-radius: 5px;
     color: white;
     background-color: #3882F6;
-    padding: 8px 8px;
+    padding: 4px 16px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    width: 30%;
+    /* width: 60%; */
+    /* margin: 0 8px; */
   }
     
   .header_1 {
     font-size: 48px;
-    font-family: 'Roboto', sans-serif;
     font-style: extra_bold; 
     color: #F9FAF8;
-  }
+    margin: 4px 2px;
+      }
 
   .header_text {
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
     color: #E5E7EB;
+    margin: 4px 2px;
+  }
+
+  .right_content {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    width: 50%;
+    background-color: grey;
+
+  }
+
+  .middle_section {
+    width: 900px;
+    background-color: #ffffff;  /* Blue */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .header_middle h1 {
+    font-size: 36px;
+    font-style: extra_bold;
+    color: #1F2937;
+    
+  }
+ 
+.middle_content {
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  /* gap: 8px; */
+  margin-top: 20px;
+}
+.image_container {
+  width: 120px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.image{
+  height: 120px;
+  width: 120px;
+  border: 2px solid #3882F6;
+  border-radius: 6px;
+}
+
+.quotation_container {
+  padding:20px;
+  width:900px;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-style: light italic;
+  color: #1F2937;
+  text-align: justify;
+  
+}
+
+.author {
+  /* float: right; */
+}
+
+
+  .footer_container {
+    color: #ffffff;
+    background-color: #1F2937;  /* Blue */
+    padding: 20px 0;
+    text-align: center;
+        /* align-items: center */
+    /* margin: 0px auto; */ 
   }

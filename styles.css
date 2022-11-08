@@ -12,10 +12,8 @@
     padding: 20px 0;
     display: flex;
     justify-content: center;
-    
     flex-direction: column;
-    /* align-items: center */
-    /* margin: 0px auto; */ 
+   
   }
 
   .header_bar {
@@ -41,7 +39,7 @@
     justify-content: center;
     margin-top: 80px;
     margin-bottom: 80px;
-    /* padding: 40px 0; */
+    
   }
 
   .left_content {
@@ -64,8 +62,7 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    /* width: 60%; */
-    /* margin: 0 8px; */
+   
   }
     
   .header_1 {
@@ -111,7 +108,6 @@
   display: flex;
   flex-direction: row;
   justify-content:space-between;
-  /* gap: 8px; */
   margin-top: 20px;
 }
 .image_container {
@@ -147,6 +143,11 @@
     padding:40px;
 }
 
+.right-aligned {
+  text-align: right;
+  font-size: 28px;
+}
+
 .call_to_action_container {
     color: white;
     margin-top: 50px;
@@ -154,25 +155,27 @@
     width: 900px;
     padding: 40px 0px 40px 0px;
     display: flex;
-    justify-content: space-around;
-    align-content: center;
     background-color: #3882F6;
     border-radius: 6px;
 }
 
 .slogans {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-content: flex-start;
+  width: 450px;  
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .cta_header {
-    font-size: 20px;
+  width: 450px;  
+  font-size: 20px;
+  
 }
 
-cta_text {
+.cta_text {
+  width: 450px;  
     font-size: 14px;
+   
 }
 
 .signup_button button {
@@ -180,12 +183,10 @@ cta_text {
     border-radius: 5px;
     color: white;
     background-color: #3882F6;
-    padding: 8px 20px;
-/*    text-align: center;*/
-    
+    padding: 8px 20px;  
     text-decoration: none;
     display: inline;
-    align-self: center;
+    justify-self: center;
     font-size: 16px;
     cursor: pointer;
     margin-left: auto;
@@ -198,6 +199,5 @@ cta_text {
     background-color: #1F2937;  /* Blue */
     padding: 20px 0;
     text-align: center;
-        /* align-items: center */
-    /* margin: 0px auto; */ 
+ 
   }
